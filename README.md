@@ -12,12 +12,12 @@ The program makes use of zip files. Each image scan in the file should contain a
 
 The program compiles a dictionary of data about each image. The program can be expanded with methods that make use of the data in the dictionary.
 
-The data collected is -
-    filed_under: file name, 
-    pillow_img: pillow object of the scan, 
-    text: text extracted from the image,
-    face_list: a list of numpy_arrays that locate the faces found in the image, 
-    thumbnail_list: a list of pillow objects resized to thumbnail size
+The data assembled are 
+* filed_under: file name, 
+* pillow_img: pillow object of the scan, 
+* text: text extracted from the image,
+* face_list: a list of numpy_arrays that locate the faces found in the image, 
+* thumbnail_list: a list of pillow objects resized to thumbnail size
 
 Support
 -------
