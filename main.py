@@ -5,9 +5,9 @@ import numpy
 import math
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
-pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'tesseract.exe'
 face_cascade = cv2.CascadeClassifier(
-    "C:/Users/nvcmm/anaconda3/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"
+    "cv2/data/haarcascade_frontalface_default.xml"
 )
 
 
